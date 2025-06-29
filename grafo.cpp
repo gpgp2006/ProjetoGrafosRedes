@@ -25,7 +25,7 @@ void adicionarAresta(Grafo &g, int u, int v, int peso) {
 
 // Imprime a matriz de adjacência com índices de linha e coluna
 void imprimirGrafo(const Grafo &g) {
-    cout << "Matriz de Adjacência:\n\n";
+    cout << "Matriz de Adjacencia:\n\n";
 
     // Imprime os índices das colunas
     cout << "    "; // espaço para alinhar com os índices das linhas
@@ -59,7 +59,7 @@ void buscaEmLargura(const Grafo &g, int inicio) {
     visitado[inicio] = true;
     fila.push(inicio);
 
-    cout << "Busca em Largura a partir do vértice " << inicio << ": ";
+    cout << "Busca em Largura a partir do vertice " << inicio << ": ";
 
     while (!fila.empty()) {
         int atual = fila.front();
@@ -139,11 +139,11 @@ void dijkstra(const Grafo &g, int inicio) {
     }
 
     // cout de distancias minimas (d)
-    cout << "Distâncias mínimas a partir do vértice " << inicio << ":\n";
+    cout << "Distancias minimas a partir do vertice " << inicio << ":\n";
     for (int i = 0; i < g.num_vertices; i++) {
-        cout << "Vértice " << i << ": ";
+        cout << "Vertice " << i << ": ";
         if (d[i] == INF)
-            cout << "inacessível";
+            cout << "inacessivel";
         else
             cout << d[i];
         cout << "\n";
@@ -152,7 +152,7 @@ void dijkstra(const Grafo &g, int inicio) {
     //cout de predecessores (pi)
     cout << "\nPredecessores:\n";
     for (int i = 0; i < g.num_vertices; i++) {
-        cout << "Vértice " << i << ": ";
+        cout << "Vertice " << i << ": ";
         if (pi[i] == -1)
             cout << "nenhum";
         else
