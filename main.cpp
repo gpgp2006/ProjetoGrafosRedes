@@ -20,7 +20,7 @@ int main() {
 
     int inicio;
 
-    cout << "Insira o vertice de início" << endl;
+    cout << "Insira o vertice de inicio" << endl;
     cin >> inicio;
 
     imprimirGrafo(g);
