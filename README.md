@@ -1,7 +1,7 @@
 # ProjetoIntegradoRedes
 
 Integrantes:
-- Gabriel GAspar
+- Gabriel GAapar
 - Isaac Fischer
 - Kimberly Rotman
 - Yasmin Brancaleone
